@@ -2,23 +2,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: 'gohan',
-      img: 'images/gohan.png',
+      img: 'images/gohan.jpg',
     },
     {
       name: 'goku',
-      img: 'images/goku.png',
+      img: 'images/goku.jpg',
     },
     {
       name: 'vegeta',
-      img: 'images/vegeta.png',
+      img: 'images/vegeta.jpg',
     },
     {
       name: 'goten',
-      img: 'images/goten.png',
+      img: 'images/goten.jpeg',
     },
     {
       name: 'krilin',
-      img: 'images/krilin.png',
+      img: 'images/krilin.jpeg',
     },
     {
       name: 'trunks',
@@ -26,23 +26,23 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: 'gohan',
-      img: 'images/gohan.png',
+      img: 'images/gohan.jpg',
     },
     {
       name: 'goku',
-      img: 'images/goku.png',
+      img: 'images/goku.jpg',
     },
     {
       name: 'vegeta',
-      img: 'images/vegeta.png',
+      img: 'images/vegeta.jpg',
     },
     {
       name: 'goten',
-      img: 'images/goten.png',
+      img: 'images/goten.jpeg',
     },
     {
       name: 'krilin',
-      img: 'images/krilin.png',
+      img: 'images/krilin.jpeg',
     },
     {
       name: 'trunks',

@@ -8,6 +8,7 @@ body {
 }
 
 h1 {
+  margin-top: -10px;
   font-family: 'Bungee', cursive;
   text-align: center;
   font-size: 3rem;
@@ -30,6 +31,11 @@ h3 {
   perspective: 800px;
   max-width: 720px;
   margin: 0 auto;
+  cursor: pointer;
+  transform: rotateY(90deg);
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  transition: 1s;
 }
 
 #score {
@@ -59,4 +65,17 @@ footer {
   line-height: 0.9;
   font-family: 'didot';
   text-decoration-line: underline;
+}
+button {
+  background: rgb(253, 253, 253);
+  height: 26px;
+  min-width: 0px;
+  border: none;
+  border-radius: 19px;
+  box-shadow: 2px 3px 0 0 #333;
+  color: rgb(5, 2, 2);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
