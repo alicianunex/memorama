@@ -68,10 +68,10 @@ footer {
 }
 button {
   background: rgb(253, 253, 253);
-  height: 25px;
-  min-width: 10px;
+  height: 26px;
+  min-width: 0px;
   border: none;
-  border-radius: 15px;
+  border-radius: 19px;
   box-shadow: 2px 3px 0 0 #333;
   color: rgb(5, 2, 2);
   font-size: 18px;
