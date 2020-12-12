@@ -1,19 +1,19 @@
 <img src="./images/title.png" width="550" height="250" />
 
-## Dragon Ball Memorama
-
-### This is a super basic memory game for Dragon Ball Fans (like me)
+#### This is a super basic memory game for Dragon Ball Fans (like me)
 
 ### Technologies
 
-#### Basic Vanilla JS - Game Logic
+- Basic Vanilla JS - Game Logic
 
-#### HTML
+- HTML
 
-#### some CSS and lots of LOVE 💙
+- some CSS
+
+and lots of LOVE 💙
 
 ### How to play
 
-#### Press on the card and find the correct Match" A classic.
+##### Press on the card and find the correct Match.
 
-#### Have fun✌🏻🌈
+##### Have fun✌🏻🌈
