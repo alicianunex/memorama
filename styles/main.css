@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gloria+Hallelujah&family=Langar&display=swap');
+
+body {
+  background-image: url(/images/background.jpg);
+  background-size: auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: -10px;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: #fcedd8;
+  text-shadow: 5px 5px 0px #eb452b, 8px 8px 0px #efa032, 12px 12px 0px #46b59b,
+    18px 18px 0px #017e7f, 22px 22px 0px #052939, 28px 28px 0px #c11a2b,
+    32px 32px 0px #c11a2b;
+}
+h3 {
+  font-family: 'Langar', cursive;
+  text-align: center;
+}
+
+.grid {
+  border: 0px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  animation: rainbow 5s infinite alternate;
+  -ms-animation: rainbow 5s infinite alternate;
+  -moz-animation: rainbow 5s infinite alternate;
+  -webkit-animation: rainbow 5s infinite alternate;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  cursor: pointer;
+  box-shadow: 3px 4px 22px 2px black;
+}
+
+#score {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  color: blue;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+img {
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 0 #333;
+  cursor: pointer;
+  block-size: 200px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  transition: 1s;
+}
+
+footer {
+  font-size: 15px;
+  margin: 30px;
+  text-align: center;
+  line-height: 0.9;
+  font-family: 'didot';
+  text-decoration-line: underline;
+  margin-top: 35px;
+}
+button {
+  background: rgb(253, 253, 253);
+  height: 26px;
+  min-width: 0px;
+  border: none;
+  border-radius: 19px;
+  box-shadow: 2px 3px 0 0 #333;
+  color: rgb(5, 2, 2);
+  font-size: 18px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
