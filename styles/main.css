@@ -22,20 +22,21 @@ h3 {
   text-align: center;
 }
 
-#grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
-  grid-auto-rows: 100px;
-  grid-gap: 15px;
-  justify-content: center;
-  perspective: 800px;
-  max-width: 720px;
-  margin: 0 auto;
-  cursor: pointer;
-  transform: rotateY(90deg);
+.grid {
+  border: 0px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  animation: rainbow 5s infinite alternate;
+  -ms-animation: rainbow 5s infinite alternate;
+  -moz-animation: rainbow 5s infinite alternate;
+  -webkit-animation: rainbow 5s infinite alternate;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.3s ease;
-  transition: 1s;
+  backface-visibility: hidden;
+  cursor: pointer;
+  box-shadow: 3px 4px 22px 2px black;
 }
 
 #score {
@@ -56,6 +57,9 @@ img {
   box-shadow: 5px 5px 0 0 #333;
   cursor: pointer;
   block-size: 200px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  transition: 1s;
 }
 
 footer {
@@ -65,6 +69,7 @@ footer {
   line-height: 0.9;
   font-family: 'didot';
   text-decoration-line: underline;
+  margin-top: 35px;
 }
 button {
   background: rgb(253, 253, 253);
@@ -75,7 +80,7 @@ button {
   box-shadow: 2px 3px 0 0 #333;
   color: rgb(5, 2, 2);
   font-size: 18px;
-  display: flex;
   align-items: center;
   cursor: pointer;
+  margin-bottom: 14px;
 }
