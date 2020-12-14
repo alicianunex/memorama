@@ -63,13 +63,16 @@ img {
 }
 
 footer {
-  font-size: 15px;
+  font-size: 17px;
   margin: 30px;
   text-align: center;
   line-height: 0.9;
   font-family: 'didot';
   text-decoration-line: underline;
   margin-top: 35px;
+}
+.footer {
+  background-color: whitesmoke;
 }
 button {
   background: rgb(253, 253, 253);
@@ -86,5 +89,7 @@ button {
 }
 
 p {
+  margin-top: -30px;
+  margin-bottom: -10px;
   text-align: center;
 }
