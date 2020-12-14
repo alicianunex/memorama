@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gloria+Hallelujah&family=Langar&display=swap');
 
 body {
-  background-image: url(/images/background.jpg);
+  background-image: url(images/background.jpg);
   background-size: auto;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
