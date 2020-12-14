@@ -84,3 +84,7 @@ button {
   cursor: pointer;
   margin-bottom: 14px;
 }
+
+p {
+  text-align: center;
+}
