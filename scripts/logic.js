@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', 'images/back.jpg');
       cards[optionTwoId].setAttribute('src', 'images/back.jpg');
-      alert('Hey! Estás dándole a la misma carta');
+      alert, swal('Hey! Estás dándole a la misma carta');
     } else if (cardsChosen[0] === cardsChosen[1]) {
       cards[optionOneId].setAttribute('src', 'images/blank.jpg');
       cards[optionTwoId].setAttribute('src', 'images/blank.jpg');
