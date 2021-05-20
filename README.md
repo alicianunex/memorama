@@ -17,3 +17,7 @@ and lots of LOVE 💙
 ##### Press on the card and find the correct Match.
 
 ##### Have fun✌🏻🌈
+
+### UPDATE 20/05/2021
+
+##### Now you have only 5 tries to finish the game
