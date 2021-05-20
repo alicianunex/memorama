@@ -355,12 +355,18 @@ template {
   body {
     background-size: auto;
   }
+  img {
+    block-size: 288px;
+  }
 }
 
 /* tablets */
 @media (max-width: 991px) {
   body {
     background-size: auto;
+  }
+  img {
+    block-size: 288px;
   }
 }
 
@@ -369,10 +375,16 @@ template {
   body {
     background-size: auto;
   }
+  img {
+    block-size: 288px;
+  }
 }
 /* mobile or only mobile */
 @media (max-width: 767px) {
   body {
     background-size: auto;
+  }
+  img {
+    block-size: 288px;
   }
 }

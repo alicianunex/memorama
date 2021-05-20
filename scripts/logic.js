@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Cree una variable para guardar numero de intentos
   let tries = 0;
   // Cree una constante para maximo numero de intentos
-  const maxTries = 10;
+  const maxTries = 4;
   const cardArray = [
     {
       name: 'gohan',
@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   var cardsChosenId = [];
   const cardsWon = [];
   const resultDisplay = document.querySelector('#score');
+  const errorCount = document.querySelector('#errorCount');
 
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
@@ -73,10 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function checkForMatch() {
     // Antes de chequear por match chequeo si el jugador puede jugar
-    if (tries > maxTries) {
-      // Si no puede jugar retorna una alerta de gameover y para la ejecucion de la funcion checkForMatch
-      return alert('Game Over');
-    }
+    //alert(tries);
 
     var cards = document.querySelectorAll('img');
     const optionOneId = cardsChosenId[0];
@@ -96,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       cards[optionOneId].setAttribute('src', 'images/back.jpg');
       cards[optionTwoId].setAttribute('src', 'images/back.jpg');
       tries = tries + 1;
-      alert('Prueba otra vez');
+      errorCount.textContent = tries;
       console.log({ tries });
     }
     cardsChosen = [];
@@ -107,6 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   function flipCard() {
+    if (tries > maxTries) {
+      return alert('Game Over');
+    }
     var cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].name);
     cardsChosenId.push(cardId);

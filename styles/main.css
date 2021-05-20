@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gloria+Hallelujah&family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 body {
   background-image: url(./background.jpg);
@@ -18,8 +20,8 @@ h1 {
     32px 32px 0px #c11a2b;
 }
 h3 {
-  font-family: 'Langar', cursive;
   text-align: center;
+  font-family: 'Russo One', sans-serif;
 }
 
 .grid {
@@ -39,16 +41,25 @@ h3 {
   box-shadow: 3px 4px 22px 2px black;
 }
 
-#score {
+#score,
+#errorCount {
   grid-column-start: 1;
   grid-column-end: -1;
   text-align: center;
   justify-content: space-between;
   align-items: center;
   color: blue;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Russo One', sans-serif;
+  padding-inline-end: 40px;
 }
 
+#title {
+  color: #000000;
+  text-align: center;
+  line-height: 50px;
+  /*-----------------------*/
+  text-shadow: 2px 1px #ce939391, 3px 2px #3b1e1e73, 4px 1px #3b1e1e73;
+}
 img {
   margin: 10px;
   justify-content: center;
@@ -68,11 +79,22 @@ footer {
   text-align: center;
   line-height: 0.9;
   font-family: 'didot';
-  text-decoration-line: underline;
   margin-top: 35px;
 }
 .footer {
-  background-color: whitesmoke;
+  transform: translate(-50%);
+  font-size: 15px;
+  line-height: 30px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.footer {
+  font-family: 'Quicksand';
+}
+.footer > img {
+  height: 30px;
 }
 button {
   background: rgb(253, 253, 253);

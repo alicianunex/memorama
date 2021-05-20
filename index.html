@@ -9,7 +9,10 @@
   </head>
   <body>
     <h1>Dragon Ball Memorama</h1>
-    <h3>Puntuación <span id="score"></span></h3>
+    <h3 id="title">
+      Puntuación <span id="score"></span> Intentos
+      <span id="errorCount"></span>
+    </h3>
     <button onclick="myButton()">↻</button>
     <script>
       function myButton() {
@@ -18,7 +21,9 @@
     </script>
     <div class="grid"></div>
   </body>
-  <footer><span class="footer">Developed by Alicia Núñez 2020</span></footer>
+  <footer>
+    <span class="footer">Made with 💕 by Alicia Nuñez ©2020</span>
+  </footer>
   <p>
     <br /><a
       @click="mostrarCreditos"
