@@ -18,6 +18,5 @@ and lots of LOVE 💙
 
 ##### Have fun✌🏻🌈
 
-### UPDATE 20/05/2021
-
-##### Now you have only 5 tries to finish the game
+### 🛑UPDATE 20/05/2021🛑
+ Now you have only 5 tries to finish the game
